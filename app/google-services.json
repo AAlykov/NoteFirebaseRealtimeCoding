@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "215523821958",
+    "project_id": "notefirebase-realtimecoding",
+    "storage_bucket": "notefirebase-realtimecoding.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215523821958:android:068d82fb82989a11784407",
+        "android_client_info": {
+          "package_name": "com.tomsk.alykov.notefirebaserealtimecoding"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215523821958-37nukui07smfkflr7q7tebjhq5pv2o68.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tomsk.alykov.notefirebaserealtimecoding",
+            "certificate_hash": "88cc36bde0108dc9254eddbd5c6ef4799ae6b7e5"
+          }
+        },
+        {
+          "client_id": "215523821958-aa9iooepviap6565khrv0pn02mvohb51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVoGjLFZP-lRdXuGHX7-Gf6Rut4L5nrfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215523821958-aa9iooepviap6565khrv0pn02mvohb51.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
