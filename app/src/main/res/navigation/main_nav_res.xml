@@ -6,12 +6,16 @@
     app:startDestination="@id/noteDetailFragment">
     <fragment
         android:id="@+id/noteDetailFragment"
-        android:name="com.tomsk.alykov.notefirebaserealtimecoding.note.NoteDetailFragment"
+        android:name="com.tomsk.alykov.notefirebaserealtimecoding.ui_note.NoteDetailFragment"
         android:label="fragment_note_detail"
         tools:layout="@layout/fragment_note_detail" />
     <fragment
         android:id="@+id/noteListingFragment"
-        android:name="com.tomsk.alykov.notefirebaserealtimecoding.note.NoteListingFragment"
+        android:name="com.tomsk.alykov.notefirebaserealtimecoding.ui_note.NoteListingFragment"
         android:label="fragment_note_listing"
-        tools:layout="@layout/fragment_note_listing" />
+        tools:layout="@layout/fragment_note_listing" >
+        <action
+            android:id="@+id/action_noteListingFragment_to_noteDetailFragment"
+            app:destination="@id/noteDetailFragment" />
+    </fragment>
 </navigation>
